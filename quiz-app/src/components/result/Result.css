@@ -1,0 +1,112 @@
+.result-containter{
+    max-width: 1100px;
+    margin:  0 auto;
+    padding: 30px;
+}
+
+.result-containter h2{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 24px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -55px;
+}
+
+.result-containter .flex h4{
+    display: flex;
+    gap: 3px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 24px;
+}
+
+.result-containter .flex span{
+    color: brown;
+}
+
+
+  .result-containter h3{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 50px;
+}
+ 
+.result-containter h4{
+    font-family: 'Handlee', cursive;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 80px;
+}
+  .flex-container{
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .flex-container h3{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+   
+    margin-bottom: 80px;
+  }
+  .flex-container ul li{
+    list-style: none;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+  }
+  .flex-container .left{
+    width: 550px;
+    padding: 20px;
+    background-color: #3B82F6;
+  }
+  
+  .flex-container .right{
+    padding: 20px;
+    width: 550px;
+    background-color: #60A5FA
+  }
+  
+.fa-thin{
+    font-size: 20px;
+}
+
+h2 {
+    position: relative;
+  }
+  
+  h2::before,
+  h2::after {
+    content: "";
+    position: absolute;
+    width: 40%; /* Adjust the width as needed */
+    border-bottom: 1px solid black; /* Line style */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  h2::before {
+    left: 0;
+  }
+  
+  h2::after {
+    right: 0;
+  }
+
+  .fa-check{
+    color:#166534 ;
+    margin-right: 7px;
+  }
+
+  .fa-xmark{
+    color:#7F1D1D ;
+    margin-right: 7px;
+  }
